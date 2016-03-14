@@ -14,9 +14,9 @@ class LibrarySuite extends FunSuite {
   def library = new Library()
 
   test("pascal triangle") {
-    assertResult(1)(library.pascal(2, 0));
-    // assertResult(2)(library.pascal(1, 2));
-    //assertResult(3)(library.pascal(1, 3));
+    assert(library.pascal(2,0) == 1)
+    assert(library.pascal(2,1) == 2)
+    assert(library.pascal(3,1) == 3)
   }
 
   test("someLibraryMethod is always true") {
