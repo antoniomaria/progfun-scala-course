@@ -3,3 +3,6 @@
 .settings
 .cache*
 bin
+target
+.idea
+.bsp

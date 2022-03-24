@@ -1,2 +1,5 @@
-# progfun-scala-course
-Functional Programming Principles in Scala by Martin Odersky
+# Functional Programming Principles in Scala
+
+Functional Programming Principles using Scala 3.0
+
+École Polytechnique Fédérale de Lausanne
